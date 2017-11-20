@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+    nuevoEnlace(nombre: HTMLInputElement, enlace: HTMLInputElement): boolean {
+        console.log(`nuevo enlace con nombre ${nombre.value} y enlace ${enlace.value}`);
+        return false;
+    }
 }

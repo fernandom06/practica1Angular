@@ -1,0 +1,13 @@
+<div class="value">
+  {{articulo.votos}}
+</div>
+<div class="label">
+  Points
+</div>
+<div>
+  <a href="{{articulo.enlace}}">{{articulo.titulo}}</a>
+  <ul>
+    <li><a href (click)="voteUp()">upvote</a></li>
+    <li><a href (click)="voteDown()">downvote</a></li>
+  </ul>
+</div>
